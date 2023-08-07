@@ -1,0 +1,84 @@
+{
+  "name": "@tkey/react-native-storage",
+  "version": "10.1.0",
+  "description": "TKey React Native Storage Module",
+  "author": "Torus Labs",
+  "homepage": "https://github.com/tkey/tkey-react-native-storage-module#readme",
+  "license": "MIT",
+  "main": "dist/reactNativeStorage.cjs.js",
+  "module": "dist/reactNativeStorage.esm.js",
+  "unpkg": "dist/reactNativeStorage.umd.min.js",
+  "jsdelivr": "dist/reactNativeStorage.umd.min.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "expo",
+    "react-native",
+    "torus",
+    "openlogin",
+    "web3auth"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkey/tkey-react-native-storage-module.git"
+  },
+  "scripts": {
+    "release": "torus-scripts release",
+    "start": "torus-scripts start",
+    "build": "torus-scripts build",
+    "lint:ts": "eslint --fix 'src/**/*.ts'",
+    "prepack": "npm run build",
+    "prepare": "husky install"
+  },
+  "bugs": {
+    "url": "https://github.com/tkey/tkey-react-native-storage-module/issues"
+  },
+  "peerDependencies": {
+    "@babel/runtime": "^7.x",
+    "react-native": "*",
+    "@tkey/core": "^10.x"
+  },
+  "dependencies": {
+    "@tkey/common-types": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.22.6",
+    "@toruslabs/eslint-config-typescript": "2.0.0",
+    "@toruslabs/torus-scripts": "^4.0.0",
+    "@types/node": "^18",
+    "@types/react-native": "^0.72.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.45.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-mocha": "^10.1.0",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "^2.8.8",
+    "react-native": "~0.71.8",
+    "rimraf": "^5.0.1",
+    "typescript": "^4.9.5"
+  },
+  "lint-staged": {
+    "!(*d).ts": [
+      "yarn run lint --",
+      "prettier --write 'src/**/*.ts'"
+    ]
+  },
+  "engines": {
+    "node": ">=16.18.1",
+    "npm": ">=8.x"
+  },
+  "gitHead": "9967ce9f795f495f28ef0da1fc50acde31dcc258"
+}
