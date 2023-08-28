@@ -42,33 +42,24 @@
   "peerDependencies": {
     "@babel/runtime": "^7.x",
     "react-native": "*",
-    "@tkey/core": "^10.x"
+    "@tkey/core": "^11.x"
   },
   "dependencies": {
-    "@tkey/common-types": "^10.1.0"
+    "@tkey/common-types": "^11.0.1"
   },
   "devDependencies": {
-    "@babel/runtime": "^7.22.6",
-    "@toruslabs/eslint-config-typescript": "2.0.0",
-    "@toruslabs/torus-scripts": "^4.0.0",
-    "@types/node": "^18",
+    "@babel/runtime": "^7.22.11",
+    "@toruslabs/eslint-config-typescript": "3.0.0",
+    "@toruslabs/torus-scripts": "^5.0.2",
+    "@types/node": "^20",
     "@types/react-native": "^0.72.2",
-    "@typescript-eslint/eslint-plugin": "^5.59.9",
-    "@typescript-eslint/parser": "^5.59.9",
-    "eslint": "^8.45.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-mocha": "^10.1.0",
-    "eslint-plugin-n": "^15.7.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-tsdoc": "^0.2.17",
+    "eslint": "^8.48.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.3",
-    "prettier": "^2.8.8",
-    "react-native": "~0.71.8",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.2",
+    "react-native": "~0.72.4",
     "rimraf": "^5.0.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.2.2"
   },
   "lint-staged": {
     "!(*d).ts": [
@@ -77,8 +68,8 @@
     ]
   },
   "engines": {
-    "node": ">=16.18.1",
-    "npm": ">=8.x"
+    "node": ">=18.x",
+    "npm": ">=9.x"
   },
   "gitHead": "9967ce9f795f495f28ef0da1fc50acde31dcc258"
 }
