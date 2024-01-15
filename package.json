@@ -42,7 +42,7 @@
   "peerDependencies": {
     "@babel/runtime": "^7.x",
     "react-native": "*",
-    "@tkey/core": "^11.x"
+    "@tkey/core": "^11.0.1"
   },
   "dependencies": {
     "@tkey/common-types": "^11.0.1"
